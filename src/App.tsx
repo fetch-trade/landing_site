@@ -2,13 +2,16 @@ import '@mantine/core/styles.css';
 
 import { MantineProvider } from '@mantine/core';
 import { HeaderMenu } from './components/HeaderMenu';
-import Home from './pages/Home';
+import { FooterLinks } from './components/FooterLinks';
+import AppRouter from './AppRouter';
 
 export default function App() {
+  console.log(window.location)
   return (
     <MantineProvider>
       <HeaderMenu/>
-      <Home />
+      <AppRouter />
+      <FooterLinks />
     </MantineProvider>
   );
 }

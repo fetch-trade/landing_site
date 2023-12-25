@@ -10,12 +10,12 @@ export function HeroTitle() {
           <Text component="span" variant="gradient" gradient={{ from: '#e33f5e', to: '#ca3f5d', deg: 90 }} inherit>
             full-scale
           </Text>{' '}
-          localized exchange platform without the all the hassle 
+          localized exchange platform without all the hassle 
         </h1>
 
         <Text className={classes.description} style={{ opacity: 0.6 }}>
           Optimized trading for your used items with ease -- Fetch helps you find what you want near you and ensures that
-          local commerce proceeds efficiently
+          local commerce proceeds smoothly
         </Text>
 
         <Group className={classes.controls}>
@@ -26,7 +26,7 @@ export function HeroTitle() {
             variant="gradient"
             gradient={{ from: '#e33f5e', to: '#ca3f5d' }}
           >
-            Get started
+            Join the waitlist
           </Button>
         </Group>
       </Container>

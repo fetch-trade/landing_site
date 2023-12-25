@@ -1,10 +1,16 @@
 import { Routes, Route } from 'react-router-dom';
-import App from './App';
+import Features from './pages/Features';
+import About from './pages/About';
+import UseCases from './pages/UseCases';
+import Home from './pages/Home';
 
 export default function AppRouter() {
   return (
     <Routes>
-      <Route path="/" element={<App />} />
+      <Route path="/" element={<Home />} />
+      <Route path="/features" element={<Features />} />
+      <Route path="/about" element={<About />} />
+      <Route path="use_cases" element={<UseCases />} />
     </Routes>
   )
 }

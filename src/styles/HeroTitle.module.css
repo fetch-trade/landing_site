@@ -6,7 +6,6 @@
 
 .inner {
   position: relative;
-  padding-top: rem(200px);
   padding-bottom: rem(120px);
 
   @media (max-width: $mantine-breakpoint-sm) {
@@ -22,7 +21,6 @@
   font-size: rem(62px);
   font-weight: 900;
   line-height: 1.1;
-  margin-top: 240px;
   padding: 0;
   color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
 
