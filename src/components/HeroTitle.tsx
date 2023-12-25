@@ -7,7 +7,7 @@ export function HeroTitle() {
       <Container size={700} className={classes.inner}>
         <h1 className={classes.title}>
           A{' '}
-          <Text component="span" variant="gradient" gradient={{ from: '#e33f5e', to: '#ca3f5d', deg: 90 }} inherit>
+          <Text component="span" variant="gradient" gradient={{ from: '#da2c5a', to: '#ad3d5b', deg: 90 }} inherit>
             full-scale
           </Text>{' '}
           localized exchange platform without all the hassle 

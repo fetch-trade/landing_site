@@ -50,7 +50,7 @@ export default function About() {
           </Timeline.Item>
           <Timeline.Item title="Execution">
             <Text c="dimmed" size="sm">
-              Implementation of software and neccesary tooling
+              Implementation of software and necessary tooling
             </Text>
             <Text size="xs" mt={4}>
               Coming soon
@@ -90,7 +90,7 @@ export default function About() {
           marginBottom: '160px' 
         }}
       >
-        <h2>Who we are</h2>
+        <h2>Masthead</h2>
         <UserInfoIcons {...DeveloperData} />
         <UserInfoIcons {...DesignerData} />
       </Card>

@@ -66,9 +66,8 @@ export function FeaturesGrid() {
 
       <Container size={560} p={0}>
         <Text size="sm" className={classes.description}>
-          Every once in a while, you might be a bit short on cash for something you 
-          need. It might be easier to leverage your surroundings and see what 
-          you can exchange for it.
+          Every once in a while, you might be a bit strapped on cash for something you 
+          need. Leverage your surroundings to see what you can exchange for it instead.
         </Text>
       </Container>
 

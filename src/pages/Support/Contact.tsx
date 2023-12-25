@@ -1,12 +1,12 @@
 import '@mantine/core/styles.css';
 
 import { MantineProvider } from '@mantine/core';
-import { FeaturesImages } from '../components/FeaturesImages';
+import { ContactUs } from '../../components/ContactUs.tsx'; 
 
-export default function UseCases() {
+export default function Contact() {
   return (
     <MantineProvider>
-      <FeaturesImages />
+      <ContactUs />
     </MantineProvider>
   );
 }

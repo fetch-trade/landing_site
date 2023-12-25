@@ -13,9 +13,9 @@ const links = [
     link: '#2',
     label: 'Support',
     links: [
-      { link: '/faq', label: 'FAQ' },
-      { link: '/demo', label: 'Book a demo' },
-      { link: '/contact_us', label: 'Contact us' },
+      { link: '/support/faq', label: 'FAQ' },
+      { link: '/support/demo', label: 'Book a demo' },
+      { link: '/support/contact_us', label: 'Contact us' },
     ],
   },
 ];
