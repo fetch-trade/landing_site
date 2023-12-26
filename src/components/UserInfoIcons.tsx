@@ -2,7 +2,7 @@ import { Avatar, Text, Group } from '@mantine/core';
 import { IconPhoneCall, IconAt } from '@tabler/icons-react';
 import classes from '../styles/UserInfoIcons.module.css';
 
-export function UserInfoIcons({ imageUrl, role, name, email, phone }) {
+export function UserInfoIcons({ imageUrl, role, name, email, phone }: { imageUrl: string; role: string; name: string; email: string; phone: string }) {
   return (
     <div className={classes.container}>
       <Group wrap="nowrap">

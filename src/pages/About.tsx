@@ -12,7 +12,7 @@ const DeveloperData = {
 };
 
 const DesignerData = {
-  imageUrl: '',
+  imageUrl: 'https://hmp.me/ebrd',
   role: 'Lead designer + Business end',
   name: 'Ethan Moloney',
   email: 'ethanjmoloney12@gmail.com',
