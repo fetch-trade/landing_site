@@ -3,7 +3,7 @@ import collectionImage from '../assets/avatars/collection.png';
 import upcyclistsImage from '../assets/avatars/upcyclists.png';
 import businessImage from '../assets/avatars/business.png';
 
-const IMAGES = {
+const IMAGES: { [key: string]: string } = {
   students: educationImage,
   collectors: collectionImage,
   upcyclists: upcyclistsImage,
